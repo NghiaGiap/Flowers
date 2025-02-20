@@ -1,0 +1,33 @@
+.flower{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.flower img{
+    width: 150px;           
+    height: auto;           
+    border-radius: 10px;    
+    box-shadow: 2px 2px 5px gray;
+    transition: transform 0.3s;  
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.list{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5733; 
+    text-shadow: 2px 2px 5px gray;
+    font-style: italic; 
+}
